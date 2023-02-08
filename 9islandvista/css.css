@@ -1,0 +1,100 @@
+html {
+    background: url("pictures/BeachMermaidCove1920by1080.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+  }
+
+  @font-face {
+    font-family: IslandFont;
+    src:url(./fonts/Geraldo-Island.ttf.woff)
+  }
+
+@font-face {
+font-family: chill;
+src:url(./fonts/Rosemary.ttf.woff)
+
+
+}
+  h1 {
+font-family: IslandFont;
+font-size: 150px;
+color: rgb(205, 224, 221);
+  }
+h2 {
+font-family: chill;
+font-size:54px;
+color: rgb(205, 224, 221);
+
+}
+
+#phrase {
+margin-left: 1068px;
+
+}
+.fadeinz2 {
+    animation: fadein 5s;
+    -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.fadeinz {
+    animation: fadein 3s;
+    -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.seashell {
+width: 150px;
+
+}
+.container {
+
+display: flex;
+justify-content: space-between;
+margin-top: 600px;
+padding: 0px;
+margin-bottom: 0;
+}
+h3 {
+font-family: chill;
+color: #872a2a;
+font-size: 40px;
+}
+
+.box8 {
+
+margin-right: 10px;
+}
