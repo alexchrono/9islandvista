@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: comics;
+    src: url(./fonts/AvengeanceMightiestAvenger-837g.ttf);
+}
+@font-face {
+    font-family: Wolverins;
+    src: url(./fonts/Wolverins-2Vno.ttf);
+  }
+html{
+    background-color: rgb(255,254,3);
+}
+
+  h1 {
+    font-family: Wolverins;
+    color: rgb(14,17,19);
+    font-size: 125px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  h2 {
+    display:inline-block;
+font-family: Wolverins;
+color: rgb(14,17,19);
+    font-size: 40px;
+    margin-top:25px;
+    margin-left: 42px;
+  }
+
+ body {
+
+ margin: 0px 42px
+ padding: 20px;
+ }
+
+ p {
+font-family: comics;
+font-size:18PX;
+margin-left: 42px;
+margin-right:966px;
+ }
+#claw1 {
+position:absolute;
+margin-top:0px;
+bottom: 550px;
+left: 241px;
+}
+  #claw2 {
+    position: absolute;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    bottom: 550px;
+    right:241px;
+  }
+
+.image {
+    position: absolute;
+    bottom:20px;
+    left:1255px;
+    top:-33px;
+    margin-bottom: 0pc;
+
+  }
+
+#line {
+position: relative;
+height:50px;
+background-color: rgb(29,144,243);
+bottom: 20px;
+margin-top:0px;
+padding-top: 0px;
+
+border: 0pc;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: 50px;
+}
+
+#movedown {
+
+padding: 0pc;
+margin-bottom: 0;
+}
+
+.imaginary{
+color: rgb(29,144,243);
+
+color: rgb(255,254,3);
+
+
+color: rgb(249,65,21);
+
+color: rgb(252,209,169);
+
+color: rgb(14,17,19);
+}
+
+#menus {
+    color: rgb(249,65,21);
+    font-family: Wolverins;
+    font-size: 40px;
+
+
+}
+
+.menu {
+margin-top: 7px;
+display: flex;
+justify-content: center;
+
+}
