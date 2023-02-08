@@ -98,3 +98,69 @@ font-size: 40px;
 
 margin-right: 10px;
 }
+
+.a1 {
+
+
+    animation:fadeIn  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a2 {
+    animation-name: FadeIn  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a3 {
+    animation:fadein  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a4 {
+    animation:fadein  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a5 {
+    animation:fadein  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a6 {
+    animation:fadein  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a7 {
+    animation:fadein  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.a8 {
+    animation:fadein  3s;
+    -webkit-animation: fadeIn  3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
