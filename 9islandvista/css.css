@@ -19,22 +19,25 @@ src:url(./fonts/Rosemary.ttf.woff)
 
 }
   .h1 {
+    display: inline-block;
 font-family: IslandFont;
-font-size: 158px;
+font-size: 17vh;
 color: rgb(205, 224, 221);
   }
 #phrase {
 font-family: chill;
-font-size:54px;
+font-size:5vh;
 color: rgb(205, 224, 221);
 
 }
 
 .spacer{
 
-visibility:hidden;
-width: 200px;
-height:27vh;
+visibility:visible;
+background-color:pink;
+width: 42vw;
+height:19vh;
+display: inline-block;
 }
 
 #phrase {
@@ -47,6 +50,7 @@ height:27vh;
   -moz-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
+
 }
 
 .fadeinz {
@@ -55,6 +59,8 @@ height:27vh;
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
+  width: 55vw;
+  display: inline-block;
 }
 
 @keyframes fadeIn {
@@ -89,12 +95,13 @@ width: 5vw;
 }
 .hidden2{
 visibility: hidden;
-height: 46vh;
-width: 300px;
+height: 47vh;
+width: 50px;
 }
 .box {
 
 display: flex;
+flex-direction: row;
 justify-content: space-around;
 
 padding: 0px;
@@ -103,7 +110,7 @@ margin-bottom: 0;
 h3 {
 font-family: chill;
 color: #872a2a;
-font-size: 40px;
+font-size: 5vh;
 }
 
 .box8 {
@@ -194,5 +201,3 @@ visibility: hidden;
 height:9vh;
 width:100px;
 }
-
-@media screen and (max-width:800px

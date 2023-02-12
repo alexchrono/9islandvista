@@ -10,19 +10,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <link href="./css.css" rel="stylesheet">
+
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="jquery.fittext.js"></script>
 <script> jQuery("#responsive_headline").fitText();
 </script>
+<link href="./css.css" rel="stylesheet">
+<style>
+    @media screen and (min-width:320px) and (max-width:480px) {
+        .h1 {color: green;
+        font-size: 12vh}
+        .spacer{
+        width: 1px;}
+        .col-12 {
+
+
+        }
+        }
+
+
+    }
+   @media screen and (min-width:481px) and (max-width:768px) {
+    .h1 {
+color: pink;
+}
+   }
+    @media screen and (min-width:1025px) and (max-width:1200px) {
+        .h1 {
+color: blue;
+}
+    }
+    @media screen and (min-width:1201px) and (max-width:3000px) {
+    .hi {
+     color: red;
+    }
+    }
+</style>
 </head>
 
 <body>
     <div class="container-fluid">
 
             <div class="row">
-                <div class="col-5"> <div class='spacer'></div></div> <div class="col-7">
+                <div class="col-12"> <div class='spacer'></div>
 
                     <div class="fadeinz">
                         <span class="h1">Nine Island Vista</span>
@@ -31,9 +62,9 @@
             </div> </div> </div>
 
             <div class="row">
-            <div class="col-7"><div class='spacer2'></div></div><div class="col-5">
-            <div class="fadeinz2">
-                <span id="phrase">Escape to freedom</h2>
+            <div class="col-12"><div class='spacer2'>
+            <div class="fadeinz2"></div></div></div></div>
+                <div class="row"><div class="col-8"></div><div class="col-4"><span id="phrase">Escape to freedom</h2>
             </div></div>
         </div>
         <div class="row"> <div class="col-12"> <div class="hidden2"></div> </div></div></div>
