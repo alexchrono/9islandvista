@@ -1,4 +1,4 @@
-html {
+body {
     background: url("pictures/BeachMermaidCove1920by1080.webp") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,20 +18,27 @@ src:url(./fonts/Rosemary.ttf.woff)
 
 
 }
-  h1 {
+  .h1 {
 font-family: IslandFont;
-font-size: 150px;
+font-size: 158px;
 color: rgb(205, 224, 221);
   }
-h2 {
+#phrase {
 font-family: chill;
 font-size:54px;
 color: rgb(205, 224, 221);
 
 }
 
+.spacer{
+
+visibility:hidden;
+width: 200px;
+height:27vh;
+}
+
 #phrase {
-margin-left: 1068px;
+
 
 }
 .fadeinz2 {
@@ -77,14 +84,19 @@ margin-left: 1068px;
   }
 
 .seashell {
-width: 150px;
+width: 5vw;
 
 }
-.container {
+.hidden2{
+visibility: hidden;
+height: 46vh;
+width: 300px;
+}
+.box {
 
 display: flex;
-justify-content: space-between;
-margin-top: 600px;
+justify-content: space-around;
+
 padding: 0px;
 margin-bottom: 0;
 }
@@ -164,3 +176,23 @@ margin-right: 10px;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
 }
+.container {
+
+}
+.wrapper {
+
+height: 80vh;
+}
+footer {
+
+height: 20vh;
+width: 100%;
+}
+
+.spacer2 {
+visibility: hidden;
+height:9vh;
+width:100px;
+}
+
+@media screen and (max-width:800px
