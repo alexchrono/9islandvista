@@ -28,6 +28,7 @@ color: rgb(205, 224, 221);
 font-family: chill;
 font-size:5vh;
 color: rgb(205, 224, 221);
+justify-self:
 
 }
 
@@ -53,6 +54,16 @@ display: inline-block;
 
 }
 
+.topflex {
+background-color: blue;
+display: flex;
+justify-content: flex-end;
+
+
+}
+.topflex .pushr {
+justify-items: flex-end;
+}
 .fadeinz {
     animation: fadein 3s;
     -webkit-animation: fadeIn 3s;
@@ -60,7 +71,7 @@ display: inline-block;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
   width: 55vw;
-  display: inline-block;
+  justify-content: flex-end;
 }
 
 @keyframes fadeIn {

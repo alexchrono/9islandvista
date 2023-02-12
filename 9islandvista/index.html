@@ -18,18 +18,46 @@
 </script>
 <link href="./css.css" rel="stylesheet">
 <style>
+    .row {display:flex;}
     @media screen and (min-width:320px) and (max-width:480px) {
-        .h1 {color: green;
-        font-size: 12vh}
+
+
+        }
+        .topflex {
+
+
+        }
         .spacer{
-        width: 1px;}
+        width: 1px;
+        height: 0px;;}
         .col-12 {
-
+        }
+        .spacer2 {
+        height: 0vh;
 
         }
+        #phrase {
+        font-size: 3vh
+
         }
+        .h1 {
 
+        display: inline-block;
+        font-size: 7vh
+        }
+        .hidden2 {
+        height: 60vh;
+        }
+        .box {
 
+        flex-wrap: wrap;
+        }
+        .seashell {
+        width: 12vw;
+
+        }
+    }   .box {
+        justify-content: space-around;
     }
    @media screen and (min-width:481px) and (max-width:768px) {
     .h1 {
@@ -53,16 +81,16 @@ color: blue;
     <div class="container-fluid">
 
             <div class="row">
-                <div class="col-12"> <div class='spacer'></div>
-
-                    <div class="fadeinz">
-                        <span class="h1">Nine Island Vista</span>
+                <div class="col-12 topflex"><div class="topflex"> <div class="fadeinz pushr">
+                    <span class="h1 pushr">Nine Island Vista</span></div></div>
 
 
-            </div> </div> </div>
+
+
+            </div> </div>
 
             <div class="row">
-            <div class="col-12"><div class='spacer2'>
+            <div class="col-12">
             <div class="fadeinz2"></div></div></div></div>
                 <div class="row"><div class="col-8"></div><div class="col-4"><span id="phrase">Escape to freedom</h2>
             </div></div>
