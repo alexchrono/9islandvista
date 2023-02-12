@@ -21,8 +21,9 @@ src:url(./fonts/Rosemary.ttf.woff)
   .h1 {
     display: inline-block;
 font-family: IslandFont;
-font-size: 17vh;
+font-size: 15vh;
 color: rgb(205, 224, 221);
+
   }
 #phrase {
 font-family: chill;
@@ -70,8 +71,10 @@ justify-items: flex-end;
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
-  width: 55vw;
+  width: 95vw;
   justify-content: flex-end;
+
+  display: flex;
 }
 
 @keyframes fadeIn {
@@ -105,28 +108,15 @@ width: 5vw;
 
 }
 .hidden2{
-visibility: hidden;
-height: 47vh;
+height:55vh;
 width: 50px;
+display: block;
 }
-.box {
 
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-
-padding: 0px;
-margin-bottom: 0;
-}
-h3 {
-font-family: chill;
-color: #872a2a;
-font-size: 5vh;
-}
 
 .box8 {
 
-margin-right: 10px;
+
 }
 
 .a1 {
@@ -209,6 +199,33 @@ width: 100%;
 
 .spacer2 {
 visibility: hidden;
-height:9vh;
+height:30vh;
 width:100px;
+}
+.box {
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  padding: 0px;
+  margin-bottom: 0;
+  }
+  h3 {
+  font-family: chill;
+  color: #872a2a;
+  font-size: 5vh;
+  }
+
+
+.htn {
+visibility: none;
+height: 2px;
+display:none;
+background-color: blue;
+width:100vw;
+height: 1vw;
+grid-template-columns: 50vw 50vw;
+grid-template-rows: 20vh 20vh;
 }
