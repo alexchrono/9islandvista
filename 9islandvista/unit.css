@@ -11,7 +11,9 @@ background: #777;
 color: white;
 position: relative;
 }
-
+.carousel-item {
+data-bs-interval=""
+}
 .container {
 position: absolute;
 bottom: 0;
