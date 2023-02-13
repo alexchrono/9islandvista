@@ -220,7 +220,7 @@ width:100px;
 
 
 .htn {
-visibility: none;
+display: none;
 height: 2px;
 display:none;
 background-color: blue;
